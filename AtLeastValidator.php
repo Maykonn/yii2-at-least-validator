@@ -56,9 +56,9 @@ class AtLeastValidator extends Validator
 
     /**
      * @var integer the maximun quantity of chosen attributes that must to be filled.
-     * Defaults to 1.
+     * Defaults to 0.
      */
-    public $max = 1;
+    public $max = 0;
 
     /**
      * @var string|array the list of attributes that should receive the error message. Required.
